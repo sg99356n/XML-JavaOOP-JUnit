@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone = "no" ?>
+
+<!DOCTYPE virology SYSTEM "FatalDiseases.dtd">
+
+<virology>
+
+	<disease name="HIV/AIDS">
+		<origin>Democratic Republic of Congo</origin>
+		<fatality>1.6 million</fatality>
+		<startYear>1976</startYear>		
+	</disease>
+	
+	<disease name="FLU PANDEMIC">
+		<origin>Hong Kong</origin>
+		<fatality>1 million</fatality>
+		<startYear>1968</startYear>
+	</disease>
+	
+	<disease name="ASIAN FLU">
+		<origin>China</origin>
+		<fatality>2 million</fatality>
+		<startYear>1956</startYear>
+	</disease>
+	
+	<disease name="Ebola">
+		<origin>West Africa</origin>
+		<fatality>13,000</fatality>
+		<startYear>2013</startYear>
+	</disease>
+	
+	<disease name="SARS">
+		<origin>Unknown</origin>
+		<fatality>8,098</fatality>
+		<startYear>2002</startYear>
+	</disease>
+	
+	<disease name="Nipah">
+		<origin>Ghana</origin>
+		<fatality>500</fatality>
+		<startYear>1998</startYear>
+	</disease>
+	
+	<disease name="H1N1 Swine Flu">
+		<origin>Mexico</origin>
+		<fatality>5.8 million</fatality>
+		<startYear>2009</startYear>
+	</disease>
+	
+	<disease name="COVID">
+		<origin>China</origin>
+		<fatality>12,500</fatality>
+		<startYear>2019</startYear>
+	</disease>
+	
+	<disease name="Tuberculosis">
+		<origin>Africa</origin>
+		<fatality>1.5 million</fatality>
+		<startYear>Unknown</startYear>
+	</disease>
+	
+</virology>

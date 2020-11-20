@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/FatalDiseaseSchema" 
+xmlns:tns="http://www.example.org/FatalDiseaseSchema" elementFormDefault="qualified">
+	<element name="virulogy">
+		<complexType>
+			<sequence>
+				<element name="disease" minOccurs="1" maxOccurs="unbounded">
+					<complexType>
+						<sequence>
+							<element name="origin" type="string"></element>
+							<element name="fatality" type="integer"></element>
+							<element name="startYear" type="gYear"></element>
+						</sequence>
+						<attribute name="name" type="string"></attribute>
+					</complexType>
+				</element>
+			</sequence>
+			
+		</complexType>
+	</element>
+</schema>

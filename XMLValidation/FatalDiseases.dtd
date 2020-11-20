@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY copyright SYSTEM "FatalDiseases">
+<!ELEMENT virology (disease+)>
+<!ELEMENT disease (origin, fatality, startYear)>
+<!ELEMENT origin (#PCDATA)>
+<!ELEMENT fatality (#PCDATA)>
+<!ELEMENT startYear (#PCDATA)>
+<!ATTLIST disease name CDATA #REQUIRED>
+

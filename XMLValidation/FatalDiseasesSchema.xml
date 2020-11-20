@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<tns:virulogy xmlns:tns="http://www.example.org/Fataltns:diseaseSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/Fataltns:diseaseSchema Fataltns:diseaseSchema.xsd ">
+  <tns:disease name="HIV/AIDS">
+		<tns:origin>Democratic Republic of Congo</tns:origin>
+		<tns:fatality>1.6 million</tns:fatality>
+		<tns:startYear>1976</tns:startYear>		
+	</tns:disease>
+	
+	<tns:disease name="FLU PANDEMIC">
+		<tns:origin>Hong Kong</tns:origin>
+		<tns:fatality>1 million</tns:fatality>
+		<tns:startYear>1968</tns:startYear>
+	</tns:disease>
+	
+	<tns:disease name="ASIAN FLU">
+		<tns:origin>China</tns:origin>
+		<tns:fatality>2 million</tns:fatality>
+		<tns:startYear>1956</tns:startYear>
+	</tns:disease>
+	
+	<tns:disease name="Ebola">
+		<tns:origin>West Africa</tns:origin>
+		<tns:fatality>13,000</tns:fatality>
+		<tns:startYear>2013</tns:startYear>
+	</tns:disease>
+	
+	<tns:disease name="SARS">
+		<tns:origin>Unknown</tns:origin>
+		<tns:fatality>8,098</tns:fatality>
+		<tns:startYear>2002</tns:startYear>
+	</tns:disease>
+	
+	<tns:disease name="Nipah">
+		<tns:origin>Ghana</tns:origin>
+		<tns:fatality>500</tns:fatality>
+		<tns:startYear>1998</tns:startYear>
+	</tns:disease>
+	
+	<tns:disease name="H1N1 Swine Flu">
+		<tns:origin>Mexico</tns:origin>
+		<tns:fatality>5.8 million</tns:fatality>
+		<tns:startYear>2009</tns:startYear>
+	</tns:disease>
+	
+	<tns:disease name="COVID">
+		<tns:origin>China</tns:origin>
+		<tns:fatality>12,500</tns:fatality>
+		<tns:startYear>2019</tns:startYear>
+	</tns:disease>
+	
+	<tns:disease name="Tuberculosis">
+		<tns:origin>Africa</tns:origin>
+		<tns:fatality>1.5 million</tns:fatality>
+		<tns:startYear>Unknown</tns:startYear>
+	</tns:disease>
+</tns:virulogy>
